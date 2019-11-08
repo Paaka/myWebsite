@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 8vw;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.navbar__paragraph{
+    transform: rotate(270deg);
+    color: #00f;
+    font-size: 10px;
+    width: 250px;
+
+}
