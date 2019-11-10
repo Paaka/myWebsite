@@ -3,26 +3,27 @@
 }
 
 .cursor {
-  height: 20px;
-  width: 20px;
-  border: 4px solid #00f;
+  height: 10px;
+  width: 10px;
+  background-color: #00f;
   border-radius: 50%;
   position: absolute;
   -webkit-animation: cursorAnim .5s infinite alternate;
           animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
 }
 
 .cursor::before {
   content: "";
-  height: 50px;
-  width: 50px;
-  border: 2px solid royalblue;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #9999ff;
   border-radius: 50%;
   position: absolute;
-  top: -17px;
-  left: -17px;
-  -webkit-animation: cursorAnim2 .5s infinite alternate;
-          animation: cursorAnim2 .5s infinite alternate;
+  -webkit-transform: translate(-38%, -38%);
+          transform: translate(-38%, -38%);
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 @-webkit-keyframes cursorAnim {
@@ -47,25 +48,7 @@
   }
 }
 
-@-webkit-keyframes cursorAnim2 {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
+@-webkit-keyframes cursorAnim2 {}
 
-@keyframes cursorAnim2 {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
+@keyframes cursorAnim2 {}
 /*# sourceMappingURL=main.css.map */
