@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './compontents/NavbarWrapper'
+import Navbar from './compontents/NavbarWrapper/NavbarWrapper'
+import Hero from './compontents/Hero/hero'
 
 
 const App = () => (
