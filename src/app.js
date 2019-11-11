@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './compontents/NavbarWrapper/NavbarWrapper'
-import Hero from './compontents/Hero/hero'
+import Hero from './compontents/Hero/hero';
+import './app.css'
 
 
 const App = () => (
@@ -9,6 +10,7 @@ const App = () => (
             <div className="cursor__small"></div>
         </div>
         <Navbar/>
+        <Hero></Hero>
     </div>
 )
 

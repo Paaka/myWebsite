@@ -13,28 +13,31 @@ $primary-color:#00f;
     animation: cursorAnim .5s infinite alternate;
     pointer-events: none;
 
-    &::before{
-        content: "";
-        height: 40px;
-        width: 40px;
-        border:2px solid lighten($primary-color, 30%);
-        border-radius: 50%;
+    &__small{
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
         position: absolute;
-        transform: translate(-38%,-38%);
-        transition: all .2s;
     }
+
+    // &::before{
+    //     content: "";
+    //     height: 40px;
+    //     width: 40px;
+    //     border:2px solid lighten($primary-color, 30%);
+    //     border-radius: 50%;
+    //     position: absolute;
+    //     transform: translate(-38%,-38%);
+    //     transition: all .2s;
+    // }
 }
 
-@keyframes cursorAnim{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(.8);
-    }
-}
+// @keyframes cursorAnim{
+//     from{
+//         transform: scale(1);
+//     }
+//     to{
+//         transform: scale(.8);
+//     }
+// }
 
-
-@keyframes cursorAnim2{
-
-}

@@ -13,42 +13,11 @@
   pointer-events: none;
 }
 
-.cursor::before {
-  content: "";
-  height: 40px;
-  width: 40px;
-  border: 2px solid #9999ff;
-  border-radius: 50%;
+.cursor__small {
+  height: 100px;
+  width: 100px;
+  border: 1px solid blueviolet;
   position: absolute;
-  -webkit-transform: translate(-38%, -38%);
-          transform: translate(-38%, -38%);
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  pointer-events: none;
 }
-
-@-webkit-keyframes cursorAnim {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-}
-
-@keyframes cursorAnim {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  to {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
-}
-
-@-webkit-keyframes cursorAnim2 {}
-
-@keyframes cursorAnim2 {}
 /*# sourceMappingURL=main.css.map */
