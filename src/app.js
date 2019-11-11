@@ -6,9 +6,8 @@ import './app.css'
 
 const App = () => (
     <div className="app">
-        <div className="cursor">
-            <div className="cursor__small"></div>
-        </div>
+        <div className="cursor"></div>
+        <div className="xd"></div>
         <Navbar/>
         <Hero></Hero>
     </div>

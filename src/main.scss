@@ -13,13 +13,6 @@ $primary-color:#00f;
     animation: cursorAnim .5s infinite alternate;
     pointer-events: none;
 
-    &__small{
-        height: 100px;
-        width: 100px;
-        background-color: blueviolet;
-        position: absolute;
-    }
-
     // &::before{
     //     content: "";
     //     height: 40px;
@@ -40,4 +33,13 @@ $primary-color:#00f;
 //         transform: scale(.8);
 //     }
 // }
+
+
+.small__cursor{
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        position: absolute;
+    
+}
 

@@ -13,10 +13,11 @@
   pointer-events: none;
 }
 
-.cursor__small {
-  height: 100px;
-  width: 100px;
-  border: 1px solid blueviolet;
+.xd {
+  height: 40px;
+  width: 40px;
+  border: 2px solid blueviolet;
+  border-radius: 50%;
   position: absolute;
   pointer-events: none;
 }
