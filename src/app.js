@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './compontents/NavbarWrapper/NavbarWrapper'
 import Hero from './compontents/Hero/hero';
-import './app.css'
+import './app.scss'
 
 
 const App = () => (

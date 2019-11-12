@@ -5,9 +5,8 @@
     width: 8vw;
     height: 100vh;
     background-color: #eee;
-}
 
-.navbar__paragraph{
+    &__paragraph{
     position: absolute;
     top: 20rem;
     transform: rotate(270deg);
@@ -15,5 +14,5 @@
     font-size: 12px;
     font-weight: 700;
     width: 300px;
-
+    }
 }
