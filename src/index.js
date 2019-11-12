@@ -9,13 +9,13 @@ import './cursor.scss'
 ReactDOM.render(<App/> ,document.querySelector('#root'));
 
 const cursor = document.querySelector('.cursor');
-const second = document.querySelector('.xd');
+const second = document.querySelector('.small__cursor');
 
 document.addEventListener('mousemove', e => {
         cursor.setAttribute("style", 'top: '+(e.pageY- 5)+"px; left: "+(e.pageX-5)+"px;");
         setTimeout(()=>{
            second.setAttribute("style", 'top: '+(e.pageY- 22)+"px; left: "+(e.pageX-22)+"px;");
-        },50)
+        },70)
        
 })
 

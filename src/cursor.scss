@@ -12,9 +12,11 @@ $primary-color:#00f;
 }
 
 .small__cursor{
-        height: 100px;
-        width: 100px;
-        background-color: blueviolet;
+        height: 40px;
+        width: 40px;
+        border: 2px solid royalblue;
+        border-radius: 50%;
+        pointer-events: none;
         position: absolute;
     
 }

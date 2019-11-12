@@ -7,7 +7,7 @@ import './app.scss'
 const App = () => (
     <div className="app">
         <div className="cursor"></div>
-        <div className="xd"></div>
+        <div className="small__cursor"></div>
         <Navbar/>
         <Hero></Hero>
     </div>

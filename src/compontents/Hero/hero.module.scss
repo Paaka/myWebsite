@@ -1,0 +1,39 @@
+.hero{
+    width: 90vw;
+    height: 100vh;
+    background-color: lighten(#ccc, 10%);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+
+    &__wrapper{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+
+.header{
+    color: #00f;
+}
+
+.para{
+    padding: 20px;
+}
+
+.btn{
+    color:royalblue;
+    background-color: lighten(#ccc, 10%);
+    padding: 10px 20px;
+    border:1px solid royalblue;
+    border-radius: 1rem;
+    transition: .3s all;
+
+    &:hover{
+        background-color: royalblue;
+        color:#eee;
+        cursor: none;
+    }
+}
