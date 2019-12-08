@@ -1,7 +1,9 @@
 .hero{
-    width: 90vw;
-    height: 100vh;
-    background-color: lighten(#ccc, 10%);
+    height: 80vh;
+    background: url('../../assets/images/HeroBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
     display: flex;
     flex-direction: column;
     align-content: center;

@@ -2,14 +2,12 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 8vw;
-    height: 100vh;
+    width: 100wh;
+    height: 10vh;
     background-color: #eee;
 
     &__paragraph{
-    position: absolute;
     top: 20rem;
-    transform: rotate(270deg);
     color: #00f;
     font-size: 12px;
     font-weight: 700;
