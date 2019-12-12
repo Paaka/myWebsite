@@ -1,10 +1,11 @@
-@import '../../index.scss';
+@import '../../SCSS/variables.scss';
 .hero{
    position: relative;
    display: flex;
    flex-direction: column;
    align-content: center;
    height: 85vh;
+   width: 100%;
    justify-content: center;
 
    &::before{

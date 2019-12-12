@@ -1,0 +1,22 @@
+@import '../../SCSS/variables.scss';
+
+.wrapper{
+    height: 50vh;
+    margin-top: -10rem;
+    z-index: -100;
+    padding: 4rem;
+    padding-top: 15rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+
+    &__img{
+        width: 150px;
+        height: 200px;
+    }
+
+    &__header{
+        color: $secondary;
+        font-size: 2rem;
+    }
+}
