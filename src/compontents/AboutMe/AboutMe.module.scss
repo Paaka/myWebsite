@@ -1,37 +1,61 @@
 @import '../../SCSS/variables.scss';
 
 .wrapper{
-    height: 50vh;
+    height: 80vh;
     margin-top: -10rem;
     z-index: -100;
     padding: 4rem;
     padding-top: 15rem;
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
+    display:flex;
     justify-content: center;
+    background-color: $light;
+
+    &Box{
+        width: 80%;
+        display: grid;
+        margin: auto;
+        justify-content: center;
+    }
 
     &__img{
         width: 150px;
         height: 200px;
+        margin: 0 auto;
     }
 
     &__header{
         color: $secondary;
         font-size: 2rem;
+        margin: 1rem auto;
     }
 
     &__hr{
         width: 10rem;
-        height: 1px;
+        height: 2px;
         border: none;
         background-color:$secondary;
     }
 
-    &__link{
-        font-size: 1.8rem;
-        height: 3rem;
-        &:hover{
-            background-color: secondary;
+    &__paragraph{
+        font-size: 1.6rem;
+        width: 50%;
+        margin: 2rem auto;
+        text-align: justify;
+        
+    }
+
+    &__link:link,
+    &__link:visited
+    {
+        font-size: 1.6rem;
+        color: $primary;
+        margin: 0 3px;
+        display: inline;
+        text-decoration: !important underline;
+        &:hover,
+        &:active{
+            text-decoration: !important underline;
+            background-color: red;
         }
     }
 }
