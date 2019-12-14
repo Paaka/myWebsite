@@ -1,0 +1,18 @@
+@import '../../SCSS/variables.scss';
+
+.Hobbies{
+    height: 70rem;
+    width: 100%;
+    clip-path: polygon(0% 10%, 100% 00%, 100% 100%, 0% 100%);
+    margin-top: -10rem;
+    padding-top: 15rem;
+    z-index: 2;
+    background-color: $light;
+    display: flex;
+    justify-content: center;
+
+    &__heading{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+}

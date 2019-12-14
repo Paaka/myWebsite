@@ -6,9 +6,10 @@
     z-index: -100;
     padding: 4rem;
     padding-top: 15rem;
+    padding-bottom: 15rem;
     display:flex;
     justify-content: center;
-    background-color: $light;
+    background-color: $light-gray;
 
     &Box{
         width: 80%;
@@ -44,17 +45,15 @@
         
     }
 
-    &__link:link,
-    &__link:visited
+    &__link:visited,
+    &__link:link
     {
         font-size: 1.6rem;
         color: $primary;
         margin: 0 3px;
         display: inline;
-        text-decoration: !important underline;
         &:hover,
         &:active{
-            text-decoration: !important underline;
             background-color: red;
         }
     }
