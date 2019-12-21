@@ -49,12 +49,17 @@
     &__link:link
     {
         font-size: 1.6rem;
+        padding: 3px;
+        margin:2px;
         color: $primary;
         margin: 0 3px;
         display: inline;
         &:hover,
         &:active{
-            background-color: red;
+            background-color: black;
+            color:$light-gray;
+            opacity: .4;
+            border-radius: 5px;
         }
     }
 }

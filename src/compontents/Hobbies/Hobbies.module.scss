@@ -1,7 +1,7 @@
 @import '../../SCSS/variables.scss';
-
+@import '../AboutMe/AboutMe.module.scss';
 .Hobbies{
-    height: 70rem;
+    height: 90rem;
     width: 100%;
     clip-path: polygon(0% 10%, 100% 00%, 100% 100%, 0% 100%);
     margin-top: -10rem;
@@ -19,18 +19,75 @@
 }
 
 .ItemWrapper{
-    width: 80%;
+    width: 65%;
     height: 20rem;
-    margin: 0 auto;
-    background-color: red;
+    margin: 0 auto -2.5rem;
     z-index: 3;
     display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: 21rem 1fr;
+    text-align: justify;
+    justify-items: center;
 
     &__img{
         width: 15rem;
         grid-column: 1/1;
         margin-left: 10px;
         align-self: center;
+    }
+
+    &__description{
+        align-self: center;
+        font-size: 1.4rem;
+        color:$primary;
+        ul{
+            margin-top: -5px;;
+        }
+    }
+
+    &__heading{
+        font-size: 2.2rem;
+        margin-bottom: -5px;
+        font-weight: 500;
+    }
+  
+}
+
+
+.horizontalLine{
+    width: 10rem;
+    border:1px solid $secondary;
+}
+
+.link{
+    margin-top: 5rem;
+    font-size: 1.4rem;
+
+    a{
+    padding: 3px;
+    &:visited{
+        color:$primary;
+    }
+    &:hover,
+    &:active{
+            background-color: black;
+            color:$light-gray;
+            opacity: .4;
+            border-radius: 5px;
+            
+        }
+    }
+}
+
+.ItemWrapperReverse{
+    @extend .ItemWrapper;
+    grid-template-columns: 1fr 21rem;
+
+    .ItemWrapper__img{
+        grid-column: 2/2;
+    }
+    .ItemWrapper__description{
+        grid-column: 1/1;
+        grid-row: 1/1;
     }
 }
