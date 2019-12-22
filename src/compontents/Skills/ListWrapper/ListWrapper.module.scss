@@ -1,0 +1,50 @@
+@import '../../../SCSS/variables.scss';
+
+.wrapper{
+    display: grid;
+    color:white;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 5rem;
+}
+
+.projects{
+
+    
+}
+
+.description{
+
+}
+
+.singleBlock{
+    background-color: $light-gray;
+    min-height: 30rem;
+    max-width: 50rem;
+    min-width: 40rem;
+    color:$primary;
+    font-size: 1.5rem;
+    display: grid;
+    margin: 0 auto;
+    border-radius: 1rem;
+    align-content: flex-start;
+
+    h2{
+        color:$primary;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        border-bottom: 2px solid $secondary;
+        align-self: flex-start;
+        margin: 3px 0;    
+        padding-bottom: 3px; 
+    }
+    &__description{
+        margin: 1rem;
+        text-align: justify;
+    }
+
+    &__Link{
+        align-self: flex-end;
+    }
+}

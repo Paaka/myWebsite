@@ -1,0 +1,10 @@
+{
+    "items":[
+        {
+        "id":"this website",
+        "description":"This website was created using React and SCSS. But here mostly you can find SCSS. If you are on mobile device it's worth to check up this website on bigger screen",
+        "link":"https://github.com/Paaka/myWebsite",
+        "linkDes":"This website github repo you can find"
+        }
+    ]
+}

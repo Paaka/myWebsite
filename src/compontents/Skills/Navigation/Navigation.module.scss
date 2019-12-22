@@ -1,0 +1,22 @@
+@import '../../../SCSS/variables.scss';
+
+.nav{
+    width: 90%;
+    flex-direction: row;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+
+    &Wrapper{
+        display:flex;
+        justify-content: space-evenly;
+        list-style: none;
+        margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+
+    &ItemActive{
+        border-bottom: 2px solid royalblue;
+        padding-bottom: 2px;
+    }
+}

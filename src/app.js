@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './compontents/AboutMe/AboutMe';
 import Hero from './compontents/Hero/hero';
+import Skills from './compontents/Skills/Skills'
 import './app.scss'
 import Hobbies from './compontents/Hobbies/Hobbies';
 
@@ -12,6 +13,7 @@ const App = () => (
         <Hero></Hero>
         <AboutMe></AboutMe>
         <Hobbies/>
+        <Skills/>
     </div>
 )
 
