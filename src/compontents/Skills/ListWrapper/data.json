@@ -1,10 +1,42 @@
 {
-    "items":[
+    "websites":[
         {
         "id":"this website",
         "description":"This website was created using React and SCSS. But here mostly you can find SCSS. If you are on mobile device it's worth to check up this website on bigger screen",
         "link":"https://github.com/Paaka/myWebsite",
         "linkDes":"This website github repo you can find"
+        },
+        {
+            "id":"Natours",
+            "description":"XD",
+            "link":"https://github.com/Mateuszhartabus/Natours",
+            "linkDes":"This website github repo you can find"
         }
-    ]
+    ],
+    "Javascript":[
+    {
+        "id":"bolderDash",
+        "description":"Txsdasadare on mobile device it's worth to check up this website on bigger screen",
+        "link":"https://github.com/Paaka/myWebsite",
+        "linkDes":"This website github repo you can find"
+    }
+    ],
+    "React":[
+        {
+            "id":"Calculator",
+            "description":"Txsdasadasfffffffffffare on mobile device it's worth to check up this website on bigger screen",
+            "link":"https://github.com/Paaka/myWebsite",
+            "linkDes":"This website github repo you can find"
+        }
+        ],
+    "CSharp":[
+            {
+                "id":"SwearSongs",
+                "description":"Txsdorth to check up this website on bigger screen",
+                "link":"https://github.com/Paaka/myWebsite",
+                "linkDes":"This website github repo you can find"
+            }
+            ],
+        
+    "ids":["websites","Javascript","React","CSharp"]
 }
