@@ -1,6 +1,8 @@
 import React from 'react';
 import data from "./data"; 
-import Styles from './ListWrapper.module.scss'
+
+import Styles from './ListWrapper.module.scss';
+import Link from '../../Link/Link';
 
 
 
@@ -38,7 +40,8 @@ class ListWrapper extends React.Component{
                       key={el.num}>{el.id.toUpperCase()}</h3>
                       <p>{el.description}</p>
                       <p>{el.linkDes}
-                        <a href={el.link}>Here</a>.
+                        <Link light={true}
+                            link={el.link}>here</Link>.
                       </p>
                  </div>)
             })}

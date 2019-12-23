@@ -1,0 +1,25 @@
+@import "../../SCSS/variables.scss";
+
+.Link:visited,
+.Link:link
+{
+    font-size: 1.6rem;
+    padding: 3px;
+    margin:2px;
+    color: $primary;
+    margin: 0 3px;
+    display: inline;
+    &:hover,
+    &:active{
+        background-color: black;
+        color:$light-gray;
+        opacity: .4;
+        border-radius: 5px;
+    }
+}
+
+.LinkLight{
+    @extend .Link:link;
+    font-size: 1.5rem;
+    color:$light-gray;
+}
