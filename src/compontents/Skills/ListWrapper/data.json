@@ -1,13 +1,15 @@
 {
-    "websites":[
+    "Websites":[
         {
         "id":"this website",
+        "num":0,
         "description":"This website was created using React and SCSS. But here mostly you can find SCSS. If you are on mobile device it's worth to check up this website on bigger screen",
         "link":"https://github.com/Paaka/myWebsite",
         "linkDes":"This website github repo you can find"
         },
         {
             "id":"Natours",
+            "num":1,
             "description":"XD",
             "link":"https://github.com/Mateuszhartabus/Natours",
             "linkDes":"This website github repo you can find"
@@ -16,6 +18,7 @@
     "Javascript":[
     {
         "id":"bolderDash",
+        "num":0,
         "description":"Txsdasadare on mobile device it's worth to check up this website on bigger screen",
         "link":"https://github.com/Paaka/myWebsite",
         "linkDes":"This website github repo you can find"
@@ -24,6 +27,7 @@
     "React":[
         {
             "id":"Calculator",
+            "num":0,
             "description":"Txsdasadasfffffffffffare on mobile device it's worth to check up this website on bigger screen",
             "link":"https://github.com/Paaka/myWebsite",
             "linkDes":"This website github repo you can find"
@@ -32,11 +36,20 @@
     "CSharp":[
             {
                 "id":"SwearSongs",
+                "num":0,
                 "description":"Txsdorth to check up this website on bigger screen",
                 "link":"https://github.com/Paaka/myWebsite",
                 "linkDes":"This website github repo you can find"
             }
             ],
-        
+    "Other":[
+                {
+                    "id":"SwearSongs",
+                    "num":0,
+                    "description":"Txsdorth to check up this website on bigger screen",
+                    "link":"https://github.com/Paaka/myWebsite",
+                    "linkDes":"This website github repo you can find"
+                }
+                ],    
     "ids":["websites","Javascript","React","CSharp"]
 }

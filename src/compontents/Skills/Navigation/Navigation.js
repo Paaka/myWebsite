@@ -3,9 +3,9 @@ import styles from './Navigation.module.scss'
 
 const Navigation = (props) =>(
     <div className={styles.nav}>
-        <h2>MY SKILLS</h2>
+        <h2 className={styles.nav__heading}>MY PROJECTS IN:</h2>
         <ul id="listOfNavs" className={styles.navWrapper}>
-            <li id="websites"
+            <li id="Websites"
                 className="navItemActive"
                 onClick={props.onClickFn} 
                 >

@@ -8,15 +8,6 @@
     margin: 5rem;
 }
 
-.projects{
-
-    
-}
-
-.description{
-
-}
-
 .singleBlock{
     background-color: $light-gray;
     min-height: 30rem;
@@ -28,6 +19,7 @@
     margin: 0 auto;
     border-radius: 1rem;
     align-content: flex-start;
+
 
     h2{
         color:$primary;
@@ -46,5 +38,37 @@
 
     &__Link{
         align-self: flex-end;
+    }
+}
+
+.itemWrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.item{
+    grid-column: 1;
+    padding: 2rem;
+    &:nth-child(odd){
+        background-color: darken($secondary, 4%);
+    }
+    &:nth-child(even){
+        background-color: RGB(57,57,57);
+        // background-color: lighten($secondary, 1%);
+    }
+
+    &__heading{
+        color:darken($light-gray, 10%);
+        font-size: 2rem;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    p{
+        color:darken($light-gray, 10%);
+        font-size: 1.4rem;
     }
 }

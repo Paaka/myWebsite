@@ -13,13 +13,17 @@ class Skills extends React.Component{
             HTMLCollectionOfItems[i].classList = "";
         }
         e.target.classList = "navItemActive";
+        this.setState({
+            currentId:e.target.id
+        })
     }
+    
     render(){
         
         return(
         <section className={styles.wrapper}>
             <Nav onClickFn={e =>this.changeCurrentSkill(e)}></Nav>
-            <ListWrapper></ListWrapper>
+            <ListWrapper currentItem={this.state.currentId}></ListWrapper>
         </section>)
     }
 }
