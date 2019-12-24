@@ -1,0 +1,50 @@
+@import "../../SCSS/variables.scss";
+
+.Contact{
+    width: 100%;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__smallBox{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon{
+        width: 6rem;
+        margin:0 auto;
+    }
+
+    &__heading{
+        margin: 0;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    p{
+        color: $primary;
+        font-size: 1.5rem;
+    }
+
+    &__Link,
+    &__Link:visited{
+        text-decoration: none;
+        padding: 2rem;
+        border: 2px solid grey;
+        color: $primary;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        font-size: 1.4rem;
+    }
+    &__LinkIcon{
+        width: 2rem;
+        margin-left: 5px;
+    }
+
+}
