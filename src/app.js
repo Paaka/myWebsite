@@ -5,6 +5,7 @@ import Skills from './compontents/Skills/Skills'
 import './app.scss'
 import Hobbies from './compontents/Hobbies/Hobbies';
 import Contact from './compontents/Contact/Contact';
+import Footer from './compontents/Footer/Footer';
 
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
         <Hobbies/>
         <Skills/>
         <Contact/> 
+        <Footer/>
     </div>
 )
 
