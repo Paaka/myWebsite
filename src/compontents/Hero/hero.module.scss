@@ -46,3 +46,8 @@
     text-align: center;
 }
 
+@media (max-width:600px){
+    .hero::before{
+        margin-top: -4rem;
+    }
+}

@@ -91,3 +91,23 @@
         grid-row: 1/1;
     }
 }
+
+
+@media (max-width:600px){
+    .ItemWrapper{
+        width: 90%;
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+        
+    }
+    .ItemWrapper__img{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    .ItemWrapper{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}

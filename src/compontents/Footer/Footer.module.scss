@@ -31,3 +31,17 @@
     }
 
 }
+
+@media (max-width:600px){
+    .footer{
+        min-width: 40vh;
+    }
+    .footer__wrapper__image{
+        margin-right: 2rem;
+    }
+    
+    .footer__link{
+       margin-left: 3rem;
+
+    }
+}

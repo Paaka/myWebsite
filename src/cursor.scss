@@ -21,3 +21,15 @@ $primary-color:#00f;
         z-index: 500;
 }
 
+
+@media (max-width:1000px){
+    .cursor{
+        display: none;
+    }
+    .small__cursor{
+        display: none;
+    }
+    html{
+        cursor: pointer;
+    }   
+}

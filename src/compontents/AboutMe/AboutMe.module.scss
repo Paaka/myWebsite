@@ -1,12 +1,12 @@
 @import '../../SCSS/variables.scss';
 
 .wrapper{
-    height: 80vh;
+    height: 90vh;
     margin-top: -10rem;
     z-index: -100;
     padding: 4rem;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     display:flex;
     justify-content: center;
     background-color: $light-gray;
@@ -61,5 +61,18 @@
             opacity: .4;
             border-radius: 5px;
         }
+    }
+}
+
+
+@media (max-width:600px){
+    .wrapper__paragraph{
+        width: 80%;
+    }
+}
+
+@media (min-width:1600px){
+    .wrapper{
+        padding: 2rem 0;
     }
 }

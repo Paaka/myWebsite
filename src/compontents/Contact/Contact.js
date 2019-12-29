@@ -8,10 +8,10 @@ const Contact = () =>(
         <div className={Styles.Contact__smallBox}>
         <img className={Styles.Contact__icon} src={Chat} alt="Chat"></img>
         <h2 className={Styles.Contact__heading}> Find Out more</h2>
-        <p>If you want to ask me something, have an offer for me or just want to say Hello. You can use link bellow.</p>
+        <p>If you want to ask me something, have an offer for me or just want to say Hello. You send me Email using link below</p>
         <a 
             className={Styles.Contact__Link} href="mailto:Mateuszhartabus@gmail.com">
-                 Message Me
+                 Email Me
             <img className={Styles.Contact__LinkIcon} alt="Email" src={email} />
          </a>
         </div>
