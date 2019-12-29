@@ -17,8 +17,6 @@ const Navigation = (props) =>(
                 onClick={props.onClickFn}>REACT</li>
             <li id="CSharp"
                 onClick={props.onClickFn}>C#</li>
-            <li id="Other"
-                onClick={props.onClickFn}>OTHER</li>
         </ul>
     </div>
 )

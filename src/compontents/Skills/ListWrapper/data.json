@@ -1,26 +1,41 @@
 {
     "Websites":[
         {
-        "id":"this website",
-        "num":0,
-        "description":"This website was created using React and SCSS. But here mostly you can find SCSS. If you are on mobile device it's worth to check up this website on bigger screen",
-        "link":"https://github.com/Paaka/myWebsite",
-        "linkDes":"This website github repo you can find"
+            "id":"this website",
+            "num":0,
+            "description":"This website was created using React and SCSS",
+            "link":"https://github.com/Paaka/myWebsite",
+            "linkDes":"This website github repo you can find"
         },
         {
-            "id":"Natours",
+            "id":"Nexter",
             "num":1,
-            "description":"XD",
-            "link":"https://github.com/Mateuszhartabus/Natours",
+            "description":"My first website, using flexbox and frid",
+            "link":"https://github.com/Mateuszhartabus/Nexter",
             "linkDes":"This website github repo you can find "
         }
+
     ],
     "Javascript":[
     {
-        "id":"bolderDash",
-        "num":0,
-        "description":"Txsdasadare on mobile device it's worth to check up this website on bigger screen",
-        "link":"https://github.com/Paaka/myWebsite",
+            "id":"Paint in Javascript",
+            "num":0,
+            "description":"Program where you can edit your Images. Built with OOP approach.",
+            "link":"https://github.com/Paaka/zajeciaJS/tree/master/MateuszHartabusLab1/Lab4",
+            "linkDes":"This website github repo you can find"
+    },
+    {
+        "id":"HNote",
+        "num":1,
+        "description":"On this website you can add Notes, pin them to the top, add tags. Etc.",
+        "link":"https://github.com/Paaka/zajeciaJS/tree/master/MateuszHartabusLab1/HNote",
+        "linkDes":"This website github repo you can find"
+    },
+    {
+        "id":"boulder dash (in Progress)",
+        "num":2,
+        "description":"My approach to write in Javascript amiga game Boulder Dash. For today project is unfortunately unfinished",
+        "link":"https://github.com/Paaka/zajeciaJS/tree/master/MateuszHartabusLab1/Borderdash",
         "linkDes":"This website github repo you can find"
     }
     ],
@@ -28,28 +43,27 @@
         {
             "id":"Calculator",
             "num":0,
-            "description":"Txsdasadasfffffffffffare on mobile device it's worth to check up this website on bigger screen",
-            "link":"https://github.com/Paaka/myWebsite",
-            "linkDes":"This website github repo you can find"
+            "description":"Basic calculator, my first react App that I wrote myself.",
+            "link":"https://github.com/Paaka/reactProjects/tree/master/Calculator",
+            "linkDes":"This website github repo you can find",
+            "watchHere":"xd"
+        },
+        {
+            "id":"Note application",
+            "num":1,
+            "description":"I code this app along with Adam Romanski on his course on Eduweb. I used React and React Router",
+            "link":"https://paaka-first-react-app.netlify.com",
+            "linkDes":"This website you can check out"
         }
         ],
     "CSharp":[
             {
-                "id":"SwearSongs",
+                "id":"ComparIO",
                 "num":0,
-                "description":"Txsdorth to check up this website on bigger screen",
-                "link":"https://github.com/Paaka/myWebsite",
-                "linkDes":"This website github repo you can find"
+                "description":"This app compare rappers songs, and show us most simmilar artists.",
+                "link":"https://github.com/Paaka/Censoring",
+                "linkDes":"This app github repo you can find"
             }
-            ],
-    "Other":[
-                {
-                    "id":"SwearSongs",
-                    "num":0,
-                    "description":"Txsdorth to check up this website on bigger screen",
-                    "link":"https://github.com/Paaka/myWebsite",
-                    "linkDes":"This website github repo you can find"
-                }
-                ],    
+            ],   
     "ids":["websites","Javascript","React","CSharp"]
 }
