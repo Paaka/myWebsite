@@ -1,13 +1,53 @@
 import React from 'react';
 import Styles from './Hobbies.module.scss';
-import Book from "../../assets/SVG/book.svg";
-import gamingController from '../../assets/SVG/ps4.svg';
-import mountains from '../../assets/SVG/mountains.svg'
+
+import HTMLSymbol from '../../assets/SVG/html-5.svg';
+import ReactSymbol from '../../assets/SVG/react.svg';
+import NodeJsSymbol from '../../assets/SVG/nodejs.svg';
 
 const Hobbies = () =>(
     <div className={Styles.Hobbies}>
-        <h2 className={Styles.Hobbies__heading}>MY HOBBIES :</h2>
-        <div className={Styles.ItemWrapper}>
+        <h2 className={Styles.Hobbies__heading}>MY SKILLS :</h2>
+        
+        <div className={Styles.Hobbies__wrapper}>
+            <img src={HTMLSymbol} />
+            <div>
+            <h2 className={Styles.List__Heading}>Basic Front-end skills</h2>
+            <ul>
+                <li className={Styles.List__Item}>HTML</li>
+                <li className={Styles.List__Item}>CSS</li>
+                <li className={Styles.List__Item}>SCSS</li>
+                <li className={Styles.List__Item}>Responsive Web Design</li>
+                <li className={Styles.List__Item}>Version control system (git, github)</li>
+            </ul>
+            </div>
+        </div>
+        <div className={Styles.Hobbies__wrapperSecondary}>
+            <img src={ReactSymbol} />
+            <div>
+            <h2 className={Styles.List__Heading}>React eco-system</h2>
+            <ul>
+                <li className={Styles.List__Item}>React</li>
+                <li className={Styles.List__Item}>React router</li>
+                <li className={Styles.List__Item}>Redux</li>
+                <li className={Styles.List__Item}>React Native</li>
+                <li className={Styles.List__Item}>Styled components </li>
+            </ul>
+            </div>
+        </div>
+        <div className={Styles.Hobbies__wrapper}>
+            <img src={NodeJsSymbol} />
+            <div className={Styles.List__wrapper}>
+            <h2 className={Styles.List__Heading}>Other</h2>
+            <ul>
+                <li className={Styles.List__Item}>Basics of Node.js(Express)</li>
+                <li className={Styles.List__Item}>Typescript</li>
+                <li className={Styles.List__Item}>Angular (currently learning)</li>
+            </ul>
+            
+            </div>
+        </div>
+        {/* <div className={Styles.ItemWrapper}>
             <img className={Styles.ItemWrapper__img} alt="book" src={gamingController}></img>
             <div className={Styles.ItemWrapper__description}>
                 <h2 className={Styles.ItemWrapper__heading}>Computer Games</h2>
@@ -36,7 +76,7 @@ const Hobbies = () =>(
                 <p>I love hiking, spending time in mountains and all kinds of nearby forests. I usually go once a month in the Tatras or in the Beskid mountains.Plus there's nothing better than driving a car, in the winter scenery on winding snowy roads.</p>
             </div>
         </div>
-        <hr className={Styles.horizontalLine}/>
+        <hr className={Styles.horizontalLine}/> */}
         <div className={Styles.link}>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
     </div>
 )

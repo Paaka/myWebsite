@@ -7,6 +7,7 @@ class Skills extends React.Component{
     state={
         currentId:"Websites",
     }
+    
     changeCurrentSkill = (e) =>{
         const HTMLCollectionOfItems = document.querySelector('#listOfNavs').getElementsByTagName('li');
         for(let i=0;i<HTMLCollectionOfItems.length;i++){
