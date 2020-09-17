@@ -41,19 +41,25 @@
     ],
     "React":[
         {
-            "id":"Calculator",
-            "num":0,
-            "description":"Basic calculator, my first react App that I wrote myself.",
-            "link":"https://github.com/Paaka/reactProjects/tree/master/Calculator",
-            "linkDes":"This website github repo you can find",
-            "watchHere":"xd"
-        },
-        {
             "id":"Note application",
-            "num":1,
-            "description":"I code this app along with Adam Romanski on his course on Eduweb. I used React and React Router",
+            "num":0,
+            "description":"My first react website. I code this app along with Adam Romanski on his course on Eduweb. I used React and React Router",
             "link":"https://paaka-first-react-app.netlify.com",
             "linkDes":"This website you can check out"
+        },
+        {
+            "id":"Mobile To-Do (HNote)",
+            "num":1,
+            "description":"My first mobile aplication, college . Designed with React Native + Redux and Typescript.",
+            "link":"https://github.com/Paaka/HNote-mobile/tree/master/hnote",
+            "linkDes":"This mobile aplication github repo you can find"
+        },
+        {
+            "id":"Kanban",
+            "num":2,
+            "description":"Kanban board, built in React, Redux and with own API (node.js)",
+            "link":"https://github.com/Paaka/TypeScriptProject/tree/master/project",
+            "linkDes":"This website github repo you can find"
         }
         ],
     "CSharp":[
